@@ -1,6 +1,6 @@
 #!/bin/sh
 export LDAPTLS_REQCERT=never
-U="adminuser"
+U="admini"
 P="6276378Ts!"
 R=/opt/likewise/bin/lwregshell
 UNES='s/.*REG_SZ *//;s/^"//;s/"$//;s/\\\\/\\X/g;s/\\"/"/g;s/\\X/\\/g'
